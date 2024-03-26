@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Calculator in Javascript</h1>
+    <h2>by Edgardo Plata</h2>
+    <div class="calculadora">
+      <input type="text" id="pantalla" readonly />
+      <br />
+      <input type="button" value="1" onclick=" aggregate('1')" />
+      <input type="button" value="2" onclick=" aggregate('2')" />
+      <input type="button" value="3" onclick=" aggregate('3')" />
+      <input type="button" value="+" onclick=" aggregate('+')" />
+      <br />
+      <input type="button" value="4" onclick=" aggregate('4')" />
+      <input type="button" value="5" onclick=" aggregate('5')" />
+      <input type="button" value="6" onclick=" aggregate('6')" />
+      <input type="button" value="-" onclick=" aggregate('-')" />
+      <br />
+      <input type="button" value="7" onclick=" aggregate('7')" />
+      <input type="button" value="8" onclick=" aggregate('8')" />
+      <input type="button" value="9" onclick=" aggregate('9')" />
+      <input type="button" value="*" onclick=" aggregate('*')" />
+      <br />
+      <input type="button" value="0" onclick=" aggregate('0')" />
+      <input type="button" value="." onclick=" aggregate('.')" />
+      <input type="button" value="/" onclick=" aggregate('/')" />
+      <input type="button" value="=" onclick=" calculate()" />
+      <br />
+      <input type="button" value="C" onclick="eliminate()" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
